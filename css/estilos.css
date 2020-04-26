@@ -1,0 +1,102 @@
+body{
+    background-color: #EEEEEE;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: 800;
+    color: #2D2D2D;
+}
+h2{
+    font-weight: 700;
+    line-height: 40px;
+    color: #2D2D2D;
+}
+.nav-link{
+    color: #4B4B4B;
+    text-decoration: none;
+    font-size: 18px;
+    width: 280px;
+    text-transform: uppercase;
+    text-align: left; 
+
+}
+.nav-item.active{
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-position: under;
+
+}
+.navbar{
+    padding: 8px 0px;
+}
+.btn{
+    background-color: #2D2D2D;
+    color: white;
+    border-radius: 0px;
+}
+footer{
+    background-color: white;
+}
+
+footer a, h4{
+    color: #2D2D2D;
+    
+}
+footer i{
+    font-size: 30px;
+    border: solid 1px;
+    border-radius: 40px;
+    padding: 10px 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer span{
+    text-decoration: underline;
+    font-weight: 700;
+}
+.form-control{
+    background-color: #EEEEEE;
+    border: 0px;
+    border-bottom: solid 1px;
+    border-radius: 0px;
+}
+section h2 a{
+    color: #2D2D2D;
+    text-decoration: underline;
+}
+h3{
+    font-size: 20px;
+}
+form .btn{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.btn:hover{
+    background-color: white;
+    color: #2D2D2D;
+    border: solid 1px #2D2D2D;
+}
+.navbar-toggler-icon{
+    padding: 6px;
+}
+
+@media (max-width: 700px) {/* Para mobile */
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 21px;
+        font-weight: bold;
+        line-height: 35px;
+    }
+    .navbar{
+        background-color: white;
+        padding: 0px;
+        padding: 5px;
+    }
+    footer h4{
+        display: none;
+    }
+}
