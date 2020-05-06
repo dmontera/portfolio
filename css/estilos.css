@@ -17,7 +17,7 @@ h2{
     color: #4B4B4B;
     text-decoration: none;
     font-size: 18px;
-    width: 280px;
+    width: 288px;
     text-transform: uppercase;
     text-align: left; 
 
@@ -40,10 +40,10 @@ footer{
     background-color: white;
 }
 
-footer a, h4{
+footer a{
     color: #2D2D2D;
-    
 }
+
 footer i{
     font-size: 30px;
     border: solid 1px;
@@ -55,6 +55,7 @@ footer i{
 footer span{
     text-decoration: underline;
     font-weight: 700;
+
 }
 .form-control{
     background-color: #EEEEEE;
@@ -81,7 +82,82 @@ form .btn{
 .navbar-toggler-icon{
     padding: 6px;
 }
+#proyectos .bg-white{
+    min-height: 550px;
+}
+#sobre-mi i{
+    font-size: 45px;
+    padding: 20px;
+    color: white;
+    background-color: #2D2D2D;
+}
+h5{
+    padding-top: 12px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+#sobre-mi .bg-white{
+    min-height: 300px;
+}
+#sobre-mi .bg-white p{
+    color: grey;
+    font-weight: 500;
+}
+#exp{
+    background-color: #2D2D2D;
+}
+h6{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+#exp p{
+    color:#EEEEEE;
+}
+#sobre-mi img{
+    height: 200px;
+    border-radius: 100px;
+    border: solid #2D2D2D 10px;
+}
+#sobre-mi .btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 500;
+}
+#parrafo p{
+    color: #2D2D2D;
+    font-weight: 500;
+    font-size: 18px;
+}
+#exp span{
+    font-weight: bold;
+    color: white;
 
+}
+#index{
+    background-size: 100%;
+    
+}
+#inicio h2{
+    font-weight: 500;
+    font-size: 30px;
+    
+}
+#inicio h1{
+    font-size: 80px;
+}
+#index footer{
+    margin-top: 31px;
+}
+#inicio .btn{
+    font-weight: 500;
+}
+#descr{
+    border-bottom: grey solid 1px;
+}
+#decor img{
+    height: 90px;
+}
 @media (max-width: 700px) {/* Para mobile */
     h1{
         font-size: 40px;
@@ -94,9 +170,72 @@ form .btn{
     .navbar{
         background-color: white;
         padding: 0px;
-        padding: 5px;
+
     }
-    footer h4{
+    footer p{
         display: none;
     }
+    .bg-white .btn{
+        padding: 10px;
+    }
+    #proyectos .bg-white{
+        min-height: 465px;
+    }
+    ul{
+        background-color: white;
+        
+    }
+    .nav-link{
+        color: white;
+        margin-left: 19px;
+        padding: 10px;
+        border-bottom: solid 1px white;
+    }
+    .nav-item.active{
+        text-decoration: none;
+        
+    }
+    footer i{
+        font-size: 30px;
+        border: none;
+    }
+    h4{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    h4 span{
+        text-decoration: underline;
+        color: #2D2D2D;
+        font-weight: bold;
+    }
+    #exp h4{
+        color: white;
+    }
+    #exp h4 span{
+        color: white;
+    }
+    h4{
+        margin-bottom: 70px;
+    }
+    #pie{
+        bottom: 0px;
+        position: fixed;
+    }
+    #inicio h1{
+        font-size: 50px;
+    }
+    #inicio h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .navbar-collapse{
+        height: 90vh;
+        background-color: #2D2D2D;
+    }
+    nav li{
+        background-color: #2D2D2D;
+    }
+
+
+
 }
