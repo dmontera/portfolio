@@ -1,3 +1,12 @@
+<?php 
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+$pg = "sobremi";
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -16,29 +25,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon fa fa-bars"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.php">Inicio</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="sobre-mi.php">Sobre mi</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="proyectos.php">Proyectos</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="contacto.php">Contacto</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <?php include_once("menu.php"); ?>
 
   <div class="container">
     <section id="sobre-mi">
@@ -140,37 +127,7 @@
     </div>
   </div>
 
-  <footer id="pie">
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row py-sm-5">
-          <div class="col-12 col-sm-4 text-center text-sm-left">
-            <div class="row">
-              <div class="col-12">
-                <p><a href="index.php"><span> ©Todos los derechos reservados <br>2020</span></a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4 text-center text-sm-center">
-            <div class="row">
-              <div class="col-12">
-                <a href="https://api.whatsapp.com/send?phone=541134247078&amp;text=Hola" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                <a href="https://linkedin.com/in/dante-montera" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/dmontera/portfolio" target="_blank"><i class="fab fa-github"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-4 text-center text-sm-right">
-            <div class="row">
-              <div class="col-12">
-                <p>Patrocinado por <br><a href="https://depcsuite.com" target="_blank"><span>DePC Suite</span></a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php include_once("footer.php"); ?>
 </body>
 
 </html>

@@ -20,14 +20,15 @@ h2{
     width: 288px;
     text-transform: uppercase;
     text-align: left; 
-
 }
-.nav-item.active{
-    font-weight: bold;
+
+.nav-link.active{
+    font-weight: bold ;
     text-decoration: underline;
     text-underline-position: under;
 
 }
+
 .navbar{
     padding: 8px 0px;
 }
