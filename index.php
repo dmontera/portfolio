@@ -26,6 +26,7 @@ $pg = "inicio";
 </head>
 
 <body id="index" background="images/fondo1.png">
+
   <?php include_once("menu.php"); ?>
 
   <div class="container">

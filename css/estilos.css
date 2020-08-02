@@ -8,35 +8,38 @@ h1{
     font-weight: 800;
     color: #2D2D2D;
 }
+
 h2{
     font-weight: 700;
     line-height: 40px;
     color: #2D2D2D;
 }
+
 .nav-link{
     color: #4B4B4B;
     text-decoration: none;
     font-size: 18px;
     width: 288px;
     text-transform: uppercase;
-    text-align: left; 
+    text-align: center; 
 }
 
 .nav-link.active{
     font-weight: bold ;
     text-decoration: underline;
     text-underline-position: under;
-
 }
 
 .navbar{
     padding: 8px 0px;
 }
+
 .btn{
     background-color: #2D2D2D;
     color: white;
     border-radius: 0px;
 }
+
 footer{
     background-color: white;
 }
@@ -53,112 +56,139 @@ footer i{
     margin-left: 10px;
     margin-right: 10px;
 }
+
 footer span{
     text-decoration: underline;
     font-weight: 700;
 
 }
+
 .form-control{
     background-color: #EEEEEE;
     border: 0px;
     border-bottom: solid 1px;
     border-radius: 0px;
 }
+
 section h2 a{
     color: #2D2D2D;
     text-decoration: underline;
 }
+
 h3{
     font-size: 20px;
 }
+
 form .btn{
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .btn:hover{
     background-color: white;
     color: #2D2D2D;
     border: solid 1px #2D2D2D;
 }
+
 .navbar-toggler-icon{
     padding: 6px;
 }
+
 #proyectos .bg-white{
     min-height: 550px;
 }
+
 #sobre-mi i{
     font-size: 45px;
     padding: 20px;
     color: white;
     background-color: #2D2D2D;
 }
+
 h5{
     padding-top: 12px;
     padding-bottom: 10px;
     font-weight: bold;
 }
+
 #sobre-mi .bg-white{
     min-height: 300px;
 }
+
 #sobre-mi .bg-white p{
     color: grey;
     font-weight: 500;
 }
+
 #exp{
     background-color: #2D2D2D;
 }
+
 h6{
     color: white;
     font-size: 40px;
     font-weight: bold;
 }
+
 #exp p{
     color:#EEEEEE;
 }
+
 #sobre-mi img{
     height: 200px;
     border-radius: 100px;
     border: solid #2D2D2D 10px;
 }
+
 #sobre-mi .btn{
     padding-left: 20px;
     padding-right: 20px;
     font-weight: 500;
 }
+
 #parrafo p{
     color: #2D2D2D;
     font-weight: 500;
     font-size: 18px;
 }
+
 #exp span{
     font-weight: bold;
     color: white;
 
 }
+
 #index{
     background-size: 100%;
     
 }
+
 #inicio h2{
     font-weight: 500;
     font-size: 30px;
     
 }
+
 #inicio h1{
     font-size: 80px;
 }
+
 #index footer{
     margin-top: 31px;
 }
+
 #inicio .btn{
     font-weight: 500;
 }
+
 #descr{
     border-bottom: grey solid 1px;
 }
+
 #decor img{
     height: 90px;
 }
+
 @media (max-width: 700px) {/* Para mobile */
     h1{
         font-size: 40px;
@@ -171,7 +201,6 @@ h6{
     .navbar{
         background-color: white;
         padding: 0px;
-
     }
     footer p{
         display: none;
@@ -203,6 +232,7 @@ h6{
     h4{
         font-size: 16px;
         line-height: 25px;
+        margin-bottom: 70px;
     }
     h4 span{
         text-decoration: underline;
@@ -215,12 +245,10 @@ h6{
     #exp h4 span{
         color: white;
     }
-    h4{
-        margin-bottom: 70px;
-    }
     #pie{
         bottom: 0px;
         position: fixed;
+        width: 100%;
     }
     #inicio h1{
         font-size: 50px;
