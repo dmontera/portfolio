@@ -101,7 +101,7 @@ if ($_POST) {
       </div>
       <div class="row py-4 pt-sm-3">
         <div class="col-12 col-sm-6">
-          <h2>Para más detalles sobre mi trabajo podés ver mi <a href="https://linkedin.com/in/dante-montera" target="_blank">Linkedin</a>, descargar mi <a href="http://localhost/portfolio/files/C.V.pdf" target="_blank">CV</a> o mandarme un <a href="contacto.php">mensaje.</a>
+          <h2>Para más detalles sobre mi trabajo podés ver mi <a href="https://linkedin.com/in/dante-montera" target="_blank">Linkedin</a>, descargar mi <a href="http://localhost/portfolio/files/DANTE_MONTERA.pdf" target="_blank">CV</a> o mandarme un <a href="contacto.php">mensaje.</a>
           </h2>
         </div>
       </div>

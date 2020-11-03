@@ -41,7 +41,7 @@ $pg = "sobremi";
       </div>
       <div class="row py-5 pt-sm-3 pb-sm-4">
         <div class="col-12 text-center text-sm-left">
-          <a href="http://localhost/portfolio/files/C.V.pdf" class="btn" target="_blank">Descargar CV</a>
+          <a href="http://localhost/portfolio/files/DANTE_MONTERA.pdf" class="btn" target="_blank">Descargar CV</a>
         </div>
       </div>
 
