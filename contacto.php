@@ -30,12 +30,12 @@ if ($_POST) {
     $mail = new PHPMailer();
     $mail->IsSMTP();
     $mail->SMTPAuth = true;
-    $mail->Host = "mail.dominio.com"; // SMTP a utilizar
-    $mail->Username = "info@dominio.com.ar"; // Correo completo a utilizar
-    $mail->Password = "aqui va la clave de tu correo";
+    $mail->Host = "mail.dantemontera.com.ar"; // SMTP a utilizar
+    $mail->Username = "info@dantemontera.com.ar"; // Correo completo a utilizar
+    $mail->Password = "D4NT3M0NT3R4.67245";
     $mail->Port = 25;
-    $mail->From = "info@dominio.com.ar"; //Desde la cuenta donde enviamos
-    $mail->FromName = "Tu nombre a mostrar";
+    $mail->From = "info@dantemontera.com.ar"; //Desde la cuenta donde enviamos
+    $mail->FromName = "Dante";
     $mail->IsHTML(true);
     $mail->SMTPOptions = array(
       'ssl' => array(
